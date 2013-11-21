@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Neurals Shree.exe" version="1.0.0.20" publicKeyToken="60153342877e7bb1" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Neurals Shree" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Neurals Shree.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Neurals Shree.exe" size="113152">
+      <assemblyIdentity name="Neurals Shree" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>4cx/b4GdwgMAcPB6JWuDaebOQJc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Neurals Shree.exe.config" size="916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>om1Wdc/gn6a1nbbKH70Pfx5GP6U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=vd\varun" issuerKeyHash="a1a854bd6891220ded387d1cb627e14aaf0a5a1c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2E4ThQNFZx5Yga9K3roseVbXppU=</DigestValue></Reference></SignedInfo><SignatureValue>hPxaJwyvmLZO4QF1NlUlfgJSWdBZUIJUQell/9m03NgBR8ROT0HL8IyYnyDWKsY2Z75Npx37gR3YPJpY1UTOHp4Bx1MKQZHz990XN8JiNu1gQ357lePfYlRJISxDyWFhr5ZTlT1zBtVuTA7hk14L5Zj+S41IIYQw+fu0esU/QJ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4klQlL3YjWzMwYQdk1qwXw19hjBXBetHBdcqzM00MhkOaG+O9+QXA4UUWKYlrlXmNwbNldsm+DWhM6ndrkr1p+7hjDMOv6rwDbH44AlONcpxdFnJykKmJUhb/b5wN6BFx0gtahmekEGeM+tWlN8shWgeqg3QGE7g7HTocub5OW8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="95a6d756792cbade4aaf81581e67450385134ed8" Description="" Url=""><as:assemblyIdentity name="Neurals Shree.exe" version="1.0.0.20" publicKeyToken="60153342877e7bb1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=vd\varun</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xbNMmNLv1M90T07QtRnSDwk8nwE=</DigestValue></Reference></SignedInfo><SignatureValue>sZB3u3s9fNysLx9A5m9090KtHqHXywmJk9soZd52Ve7WVs82asbai2hWcPfmqo5oWKRuutgBNbuHiXLEF5hdo6CGmh4r6qYC9oswTVYbgob3AEohtvsIXe2xFN9UyrDsm6cKxsRXMop6SeO85jT3w+tlkl6NDVMwDysgNQwZweI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4klQlL3YjWzMwYQdk1qwXw19hjBXBetHBdcqzM00MhkOaG+O9+QXA4UUWKYlrlXmNwbNldsm+DWhM6ndrkr1p+7hjDMOv6rwDbH44AlONcpxdFnJykKmJUhb/b5wN6BFx0gtahmekEGeM+tWlN8shWgeqg3QGE7g7HTocub5OW8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQOj+Y6bn/OrdBEdZJA6DGDTANBgkqhkiG9w0BAQUFADAbMRkwFwYDVQQDHhAAdgBkAFwAdgBhAHIAdQBuMB4XDTEzMDEyNjA1MjIzMFoXDTE0MDEyNjExMjIzMFowGzEZMBcGA1UEAx4QAHYAZABcAHYAYQByAHUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4klQlL3YjWzMwYQdk1qwXw19hjBXBetHBdcqzM00MhkOaG+O9+QXA4UUWKYlrlXmNwbNldsm+DWhM6ndrkr1p+7hjDMOv6rwDbH44AlONcpxdFnJykKmJUhb/b5wN6BFx0gtahmekEGeM+tWlN8shWgeqg3QGE7g7HTocub5OW8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBDMeqIrvHfM6iJoTXWb83NfhIy6zpolymaShOvxhDPuqMNYs05WeTFtfsGfGwURbi/D8nnwRZqhx/RSR6MsPBy8Zrj0q8OY8SPz3tIwcaf/Dr+h3vg8zDsKrY0D+4ElFA7SNpBbEvsT33Daw1h/IYIjbkE+ghXK8UQYOPHS9AWKg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
